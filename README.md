@@ -17,6 +17,12 @@ O comando a seguir mostrará se a ferramenta foi corretamente instalada:
 dotnet tool list -g
 ```
 
+Link do package gerado no NuGet:
+
+https://www.nuget.org/packages/mcpsqlserver-preview-202508d/
+
+O workflow do GitHub Actions (sqlserver-mcp-dotnet-tool.yml) utilizado para a geração desta tool está na pasta com este mesmo nome (/workflow0) **workflow**.
+
 Como podemos observar no resultado seguinte:
 
 ```
