@@ -1,0 +1,13 @@
+{
+	"servers": {
+		"mcp-sqlserver-dotnet-tool": {
+			"type": "stdio",
+			"command": "mcpsqlserver",
+			"args": [],
+			"env": {
+                "CONNECTION_STRING": "Server=localhost;Database=BaseDadosGeograficos;User Id=sa;Password=SqlServer2025!;TrustServerCertificate=True;"
+			}
+		}
+	},
+	"inputs": []
+}
