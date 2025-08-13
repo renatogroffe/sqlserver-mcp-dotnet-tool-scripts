@@ -50,3 +50,5 @@ Arquivo mcp.json com configurações informadas no Visual Studio Code:
 }
 ```
 
+Exemplo de uso do MCP do SQL Server a partir do Visual Studio Code:
+![Aplicação em execução](img/vscode-mcp-sqlserver-01.png)
