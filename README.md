@@ -32,3 +32,21 @@ cd src
 docker-compose up -d
 ```
 
+Arquivo mcp.json com configurações informadas no Visual Studio Code:
+
+```json
+{
+	"servers": {
+		"mcp-sqlserver-dotnet-tool": {
+			"type": "stdio",
+			"command": "mcpsqlserver",
+			"args": [],
+			"env": {
+                "CONNECTION_STRING": "Server=localhost;Database=BaseDadosGeograficos;User Id=sa;Password=SqlServer2025!;TrustServerCertificate=True;"
+			}
+		}
+	},
+	"inputs": []
+}
+```
+
