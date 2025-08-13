@@ -25,3 +25,10 @@ ID do Pacote                      Versão      Comandos
 mcpsqlserver-preview-202508d      1.0.0       mcpsqlserver
 ```
 
+Para subir o ambiente de testes (uma instância do SQL Server a partir de um script do Docker Compose) execute:
+
+```bash
+cd src
+docker-compose up -d
+```
+
